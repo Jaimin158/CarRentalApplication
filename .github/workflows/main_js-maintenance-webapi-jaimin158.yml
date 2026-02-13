@@ -1,19 +1,17 @@
-
-
 name: Build and deploy ASP.Net Core app to Azure Web App - js-maintenance-webapi-jaimin158
 
 on:
   push:
     branches:
-      - main   
-  workflow_dispatch: 
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read 
+      contents: read
 
     steps:
       - name: Checkout repository
@@ -25,17 +23,14 @@ jobs:
           dotnet-version: "9.0.x"
 
       - name: Restore dependencies
-        run: dotnet restore ./Maintenance.WebAPI/Maintenance.WebAPI.csproj
+        run: dotnet restore ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj
 
-      
       - name: Build project
-        run: dotnet build ./Maintenance.WebAPI/Maintenance.WebAPI.csproj -c Release --no-restore
+        run: dotnet build ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj -c Release --no-restore
 
-     
       - name: Publish project
-        run: dotnet publish ./Maintenance.WebAPI/Maintenance.WebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+        run: dotnet publish ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
 
-      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
@@ -44,19 +39,18 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build 
+    needs: build
 
     permissions:
-      id-token: write  
-      contents: read   
+      id-token: write
+      contents: read
 
     steps:
-      
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-          path: . 
+          path: .
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -65,7 +59,6 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_704275C6C0754CA69D9C907836439811 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1963F38E95E2455A82759200B0CA348F }}
 
-      
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
