@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Maintenance.WebAPI.Controllers.JSMaintenanceController",
+    "Method": "GetRepairHistory",
+    "RelativePath": "api/maintenance/vehicles/{vehicleId}/repairs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

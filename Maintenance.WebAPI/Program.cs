@@ -7,7 +7,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // register fake service
-builder.Services.AddScoped<IRepairHistoryService, FakeRepairHistoryService>();
+builder.Services.AddScoped<IJSRepairHistoryService, JSFakeRepairHistoryService>();
 
 var app = builder.Build();
 

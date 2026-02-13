@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProfile.webapi", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.webapi", "Inventory.webapi\Inventory.webapi.csproj", "{8AABFFE3-C520-4EA4-B8C5-9ED2DDFC0C29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.WebAPI", "Maintenance.WebAPI\Maintenance.WebAPI.csproj", "{5354C22F-0607-4503-9D59-F31F6997B471}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSMaintenance.WebAPI", "Maintenance.WebAPI\JSMaintenance.WebAPI.csproj", "{5354C22F-0607-4503-9D59-F31F6997B471}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

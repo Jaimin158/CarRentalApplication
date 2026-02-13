@@ -1,0 +1,33 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "JSMaintenance.WebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/maintenance/vehicles/{vehicleId}/repairs": {
+      "get": {
+        "tags": [
+          "JSMaintenance"
+        ],
+        "parameters": [
+          {
+            "name": "vehicleId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

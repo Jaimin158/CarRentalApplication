@@ -5,11 +5,11 @@ namespace Maintenance.WebAPI.Controllers;
 
 [ApiController]
 [Route("api/maintenance")]
-public class MaintenanceController : ControllerBase
+public class JSMaintenanceController : ControllerBase
 {
-    private readonly IRepairHistoryService _service;
+    private readonly IJSRepairHistoryService _service;
 
-    public MaintenanceController(IRepairHistoryService service)
+    public JSMaintenanceController(IJSRepairHistoryService service)
     {
         _service = service;
     }

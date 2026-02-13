@@ -2,13 +2,13 @@ using Maintenance.WebAPI.Models;
 
 namespace Maintenance.WebAPI.Services;
 
-public class FakeRepairHistoryService : IRepairHistoryService
+public class JSFakeRepairHistoryService : IJSRepairHistoryService
 {
-    public List<RepairHistoryDto> GetByVehicleId(int vehicleId)
+    public List<JSRepairHistoryDto> GetByVehicleId(int vehicleId)
     {
-        return new List<RepairHistoryDto>
+        return new List<JSRepairHistoryDto>
         {
-            new RepairHistoryDto
+            new JSRepairHistoryDto
             {
                 Id = 1,
                 VehicleId = vehicleId,
@@ -17,7 +17,7 @@ public class FakeRepairHistoryService : IRepairHistoryService
                 Cost = 89.99m,
                 PerformedBy = "Quick Lube"
             },
-            new RepairHistoryDto
+            new JSRepairHistoryDto
             {
                 Id = 2,
                 VehicleId = vehicleId,

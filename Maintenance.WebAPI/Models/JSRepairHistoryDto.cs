@@ -1,6 +1,6 @@
 ﻿namespace Maintenance.WebAPI.Models;
 
-public class RepairHistoryDto
+public class JSRepairHistoryDto
 {
     public int Id { get; set; }
 

@@ -431,9 +431,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Maintenance.WebAPI.csproj",
-      "projectName": "Maintenance.WebAPI",
-      "projectPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Maintenance.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\JSMaintenance.WebAPI.csproj",
+      "projectName": "JSMaintenance.WebAPI",
+      "projectPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\JSMaintenance.WebAPI.csproj",
       "packagesPath": "C:\\Users\\jaimi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
