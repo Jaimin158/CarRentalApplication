@@ -1,0 +1,6 @@
+@CustomerProfile.webapi_HostAddress = http://localhost:5100
+
+GET {{CustomerProfile.webapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
