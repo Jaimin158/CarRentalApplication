@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
 
@@ -29,13 +28,13 @@ jobs:
         run: dotnet build ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj -c Release --no-restore
 
       - name: Publish project
-        run: dotnet publish ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj -c Release -o ${{ env.DOTNET_ROOT }}/myapp --no-build
+        run: dotnet publish ./Maintenance.WebAPI/JSMaintenance.WebAPI.csproj -c Release -o ./publish --no-build
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: .net-app
-          path: ${{ env.DOTNET_ROOT }}/myapp
+          name: webapi-publish
+          path: ./publish
 
   deploy:
     runs-on: ubuntu-latest
@@ -49,8 +48,8 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: .net-app
-          path: .
+          name: webapi-publish
+          path: ./publish
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -64,4 +63,4 @@ jobs:
         with:
           app-name: "js-maintenance-webapi-jaimin158"
           slot-name: "Production"
-          package: .
+          package: ./publish
