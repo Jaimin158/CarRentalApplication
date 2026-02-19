@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj": {}
+    "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj": {
+    "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj",
+        "projectUniqueName": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj",
         "projectName": "Inventory.webapi",
-        "projectPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj",
+        "projectPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\Inventory.webapi.csproj",
         "packagesPath": "C:\\Users\\jaimi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\obj\\",
+        "outputPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Inventory.webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

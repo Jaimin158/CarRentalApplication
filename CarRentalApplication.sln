@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalApplication", "CarRentalApplication\CarRentalApplication.csproj", "{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebServices", "WebServices", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProfile.webapi", "CustomerProfile.webapi\CustomerProfile.webapi.csproj", "{10B4D48F-4594-4CA0-A1D6-18537841E37D}"
@@ -12,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory.webapi", "Inventory.webapi\Inventory.webapi.csproj", "{8AABFFE3-C520-4EA4-B8C5-9ED2DDFC0C29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSMaintenance.WebAPI", "Maintenance.WebAPI\JSMaintenance.WebAPI.csproj", "{5354C22F-0607-4503-9D59-F31F6997B471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentalApplication", "CarRentalApplication.csproj", "{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,18 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|x64.Build.0 = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Debug|x86.Build.0 = Debug|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|x64.ActiveCfg = Release|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|x64.Build.0 = Release|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|x86.ActiveCfg = Release|Any CPU
-		{6B3602B1-366D-4B3D-A8B0-48DE38BCDCB9}.Release|x86.Build.0 = Release|Any CPU
 		{10B4D48F-4594-4CA0-A1D6-18537841E37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10B4D48F-4594-4CA0-A1D6-18537841E37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B4D48F-4594-4CA0-A1D6-18537841E37D}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -71,6 +59,18 @@ Global
 		{5354C22F-0607-4503-9D59-F31F6997B471}.Release|x64.Build.0 = Release|Any CPU
 		{5354C22F-0607-4503-9D59-F31F6997B471}.Release|x86.ActiveCfg = Release|Any CPU
 		{5354C22F-0607-4503-9D59-F31F6997B471}.Release|x86.Build.0 = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|x64.Build.0 = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Debug|x86.Build.0 = Debug|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|x64.Build.0 = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

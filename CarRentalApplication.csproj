@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CustomerProfile.webapi\**" />
+    <Compile Remove="Inventory.webapi\**" />
+    <Compile Remove="Maintenance.WebAPI\**" />
+    <Content Remove="CustomerProfile.webapi\**" />
+    <Content Remove="Inventory.webapi\**" />
+    <Content Remove="Maintenance.WebAPI\**" />
+    <EmbeddedResource Remove="CustomerProfile.webapi\**" />
+    <EmbeddedResource Remove="Inventory.webapi\**" />
+    <EmbeddedResource Remove="Maintenance.WebAPI\**" />
+    <None Remove="CustomerProfile.webapi\**" />
+    <None Remove="Inventory.webapi\**" />
+    <None Remove="Maintenance.WebAPI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.23">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

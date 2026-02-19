@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/maintenance/crash": {
+      "get": {
+        "tags": [
+          "JSMaintenance"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/maintenance/vehicles/{vehicleId}/repairs": {
       "get": {
         "tags": [
@@ -27,7 +39,96 @@
           }
         }
       }
+    },
+    "/api/maintenance/repairs": {
+      "post": {
+        "tags": [
+          "JSMaintenance"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JSRepairHistoryDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/JSRepairHistoryDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/JSRepairHistoryDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/maintenance/usage": {
+      "get": {
+        "tags": [
+          "JSMaintenance"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "JSRepairHistoryDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vehicleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "repairDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "cost": {
+            "type": "number",
+            "format": "double"
+          },
+          "performedBy": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "ApiKey": {
+        "type": "apiKey",
+        "description": "API Key needed to access the endpoints. Example: MY_SECRET_KEY_123",
+        "name": "X-Api-Key",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiKey": [ ]
+    }
+  ]
 }
