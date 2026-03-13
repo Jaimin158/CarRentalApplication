@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\views\\maintenance\\usage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,6 +17,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:controllers\\maintenancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\models\\repairhistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|c:\\users\\jaimi\\onedrive\\desktop\\carrentalapplication\\carrentalapplication\\carrentalapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62D92EDB-633F-8FC9-61E1-B13A7E8444C0}|CarRentalApplication.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,63 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-13T20:50:01.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usage.cshtml",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Maintenance\\Usage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Maintenance\\Usage.cshtml",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Maintenance\\Usage.cshtml",
-              "RelativeToolTip": "Views\\Maintenance\\Usage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-13T20:49:15.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JSMaintenanceController.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
-              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
-              "RelativeToolTip": "Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAUwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T05:00:21.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T06:00:06.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -183,33 +131,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MaintenanceController.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\MaintenanceController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MaintenanceController.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\MaintenanceController.cs",
-              "RelativeToolTip": "Controllers\\MaintenanceController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA5wEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T06:02:09.598Z",
+              "DocumentIndex": 1,
+              "Title": "Usage.cshtml",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Maintenance\\Usage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Maintenance\\Usage.cshtml",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Maintenance\\Usage.cshtml",
+              "RelativeToolTip": "Views\\Maintenance\\Usage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T20:49:15.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RepairHistoryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\RepairHistoryViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\RepairHistoryViewModel.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\RepairHistoryViewModel.cs",
-              "RelativeToolTip": "Models\\RepairHistoryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T06:00:54.499Z",
+              "WhenOpened": "2026-02-19T06:00:06.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "History.cshtml",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Maintenance\\History.cshtml",
               "RelativeDocumentMoniker": "Views\\Maintenance\\History.cshtml",
@@ -222,7 +170,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:02:21.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:02:19.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaintenanceController.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\MaintenanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaintenanceController.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\MaintenanceController.cs",
+              "RelativeToolTip": "Controllers\\MaintenanceController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:02:09.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T20:50:01.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "RepairHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\RepairHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RepairHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\RepairHistoryViewModel.cs",
+              "RelativeToolTip": "Models\\RepairHistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T06:00:54.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JSMaintenanceController.cs",
+              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
+              "RelativeDocumentMoniker": "Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
+              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
+              "RelativeToolTip": "Maintenance.WebAPI\\Controllers\\JSMaintenanceController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T05:00:21.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ApiKeyMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Middleware\\ApiKeyMiddleware.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Middleware\\ApiKeyMiddleware.cs",
@@ -235,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Program.cs",
@@ -248,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "JSRepairHistoryDto.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Models\\JSRepairHistoryDto.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Models\\JSRepairHistoryDto.cs",
@@ -261,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IJSRepairHistoryService.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Services\\IJSRepairHistoryService.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\IJSRepairHistoryService.cs",
@@ -274,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "JSFakeRepairHistoryService.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Services\\JSFakeRepairHistoryService.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Services\\JSFakeRepairHistoryService.cs",
@@ -287,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
@@ -300,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Maintenance.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Maintenance.WebAPI\\appsettings.json",
@@ -313,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "CustmerProfileContext.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\CustmerProfileContext.cs",
               "RelativeDocumentMoniker": "Models\\CustmerProfileContext.cs",
@@ -325,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Customer.cs",
@@ -334,30 +360,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T06:00:30.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAwJEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T06:02:21.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRentalApplication\\CarRentalApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T06:02:19.146Z"
             },
             {
               "$type": "Document",

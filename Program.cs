@@ -5,8 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<CustmerProfileContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CustomersProfile")));
 
 builder.Services.AddHttpClient("MaintenanceApi", (sp, client) =>
 {
