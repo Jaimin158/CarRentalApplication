@@ -33,3 +33,4 @@ C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRen
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\Maintenance.WebAPI\obj\Debug\net9.0\JSMaintenance.WebAPI.pdb
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\Maintenance.WebAPI\obj\Debug\net9.0\JSMaintenance.WebAPI.genruntimeconfig.cache
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\Maintenance.WebAPI\obj\Debug\net9.0\ref\JSMaintenance.WebAPI.dll
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\Maintenance.WebAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

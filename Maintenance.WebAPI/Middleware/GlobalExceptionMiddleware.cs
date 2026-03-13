@@ -3,6 +3,8 @@ using Microsoft.Extensions.Logging;
 
 namespace JSMainteanance.WebAPI.Middleware
 {
+
+    //It is best just because it is having just one place to handle errors
     public sealed class GlobalExceptionMiddleware
     {
         private readonly RequestDelegate _next;

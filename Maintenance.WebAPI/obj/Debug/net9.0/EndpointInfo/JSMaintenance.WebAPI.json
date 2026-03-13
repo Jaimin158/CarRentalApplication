@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.4",
   "info": {
-    "title": "JSMaintenance.WebAPI",
-    "version": "1.0"
+    "title": "Maintenance.WebAPI",
+    "version": "v1"
   },
   "paths": {
     "/api/maintenance/crash": {
@@ -120,7 +120,7 @@
     "securitySchemes": {
       "ApiKey": {
         "type": "apiKey",
-        "description": "API Key needed to access the endpoints. Example: MY_SECRET_KEY_123",
+        "description": "API Key needed to access the endpoints.",
         "name": "X-Api-Key",
         "in": "header"
       }

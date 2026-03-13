@@ -1,63 +1,68 @@
 using JSMainteanance.WebAPI.Middleware;
 using Maintenance.WebAPI.Services;
 using MLMaintenance.WebAPI.Middleware;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 // register fake service
 builder.Services.AddScoped<IJSRepairHistoryService, JSFakeRepairHistoryService>();
 
+// stateful in-memory usage count
 var usageCounts = new Dictionary<string, int>();
 builder.Services.AddSingleton(usageCounts);
 
+// Swagger + API key support
 builder.Services.AddSwaggerGen(c =>
 {
-    c.AddSecurityDefinition("ApiKey", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Description = "API Key needed to access the endpoints. Example: MY_SECRET_KEY_123",
-        Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
-        Name = "X-Api-Key",
-        In = Microsoft.OpenApi.Models.ParameterLocation.Header
+        Title = "Maintenance.WebAPI",
+        Version = "v1"
     });
 
-    c.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
+    {
+        Description = "API Key needed to access the endpoints.",
+        Type = SecuritySchemeType.ApiKey,
+        Name = "X-Api-Key",
+        In = ParameterLocation.Header
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
-            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            new OpenApiSecurityScheme
             {
-                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                Reference = new OpenApiReference
                 {
-                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Type = ReferenceType.SecurityScheme,
                     Id = "ApiKey"
                 }
             },
-            new string[] { }
+            Array.Empty<string>()
         }
     });
 });
+
 var app = builder.Build();
 
-
-// Swagger enabled for Azure too (rubric requirement)
+// Swagger enabled for local + Azure
 app.UseSwagger();
 app.UseSwaggerUI();
 
+// global exception handling
 app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
+// API key middleware should run in all environments
+app.UseMiddleware<ApiKeyMiddleware>();
+
 app.UseAuthorization();
-if (!app.Environment.IsDevelopment())
-{
-    app.UseMiddleware<ApiKeyMiddleware>();
-}
-
-app.UseMiddleware<GlobalExceptionMiddleware>();
-
 
 app.MapControllers();
 

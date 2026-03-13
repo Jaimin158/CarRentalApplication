@@ -516,3 +516,4 @@ C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRen
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\obj\Debug\net8.0\CarRentalApplication.pdb
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\obj\Debug\net8.0\CarRentalApplication.genruntimeconfig.cache
 C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\obj\Debug\net8.0\ref\CarRentalApplication.dll
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRentalApplication\CarRentalApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

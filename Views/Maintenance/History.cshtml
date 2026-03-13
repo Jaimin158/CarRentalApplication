@@ -15,6 +15,13 @@
 
 <hr />
 
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
 @if (!Model.Any())
 {
     <p>No repair history found.</p>

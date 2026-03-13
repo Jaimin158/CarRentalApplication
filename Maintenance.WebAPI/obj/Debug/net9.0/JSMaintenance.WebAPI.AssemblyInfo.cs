@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JSMaintenance.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6303d3e8d13f9726c0bfad34f33ed3b9d11adae9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ebfb05575ca344cb184079da521647316b7caf")]
 [assembly: System.Reflection.AssemblyProductAttribute("JSMaintenance.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JSMaintenance.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

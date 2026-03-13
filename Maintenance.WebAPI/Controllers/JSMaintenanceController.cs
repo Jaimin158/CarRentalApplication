@@ -65,9 +65,15 @@ public class JSMaintenanceController : ControllerBase
 
         var created = _service.AddRepair(repair);
 
-        return Created("", created);
+        return CreatedAtAction(
+    nameof(GetRepairHistory),
+    new { vehicleId = created.VehicleId },
+    created
+);
+
     }
-  
+
+    //Exception Handler
     [HttpGet("usage")]
     public IActionResult Usage()
     {
