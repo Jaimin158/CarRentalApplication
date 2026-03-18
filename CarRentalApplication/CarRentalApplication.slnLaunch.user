@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CustomerProfile.webapi\\CustomerProfile.webapi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Inventory.webapi\\Inventory.webapi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Maintenance.WebAPI\\JSMaintenance.WebAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CarRentalApplication.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\CarRentalApiGateway\\CarRentalApiGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

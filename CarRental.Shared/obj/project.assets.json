@@ -431,11 +431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRental.Shared\\CarRental.Shared.csproj",
+      "projectUniqueName": "C:\\XYZ\\CarRentalApplication\\CarRental.Shared\\CarRental.Shared.csproj",
       "projectName": "CarRental.Shared",
-      "projectPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRental.Shared\\CarRental.Shared.csproj",
+      "projectPath": "C:\\XYZ\\CarRentalApplication\\CarRental.Shared\\CarRental.Shared.csproj",
       "packagesPath": "C:\\Users\\jaimi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaimi\\OneDrive\\Desktop\\CarRentalApplication\\CarRental.Shared\\obj\\",
+      "outputPath": "C:\\XYZ\\CarRentalApplication\\CarRental.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
