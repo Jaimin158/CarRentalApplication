@@ -1,0 +1,13 @@
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.deps.json
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.dll
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\bin\Debug\net8.0\CarRental.Shared.pdb
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.sourcelink.json
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.dll
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\refint\CarRental.Shared.dll
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\CarRental.Shared.pdb
+C:\Users\jaimi\OneDrive\Desktop\CarRentalApplication\CarRental.Shared\obj\Debug\net8.0\ref\CarRental.Shared.dll

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarRentalApplication",
+    "\\Inventory.webapi",
+    "\\Maintenance.WebAPI",
+    "\\Maintenance.WebAPI\\Controllers",
+    "\\Maintenance.WebAPI\\Models",
+    "\\Maintenance.WebAPI\\Services"
+  ],
+  "SelectedNode": "\\Maintenance.WebAPI\\Maintenance.WebAPI.csproj",
+  "PreviewInSolutionExplorer": false
+}
