@@ -1,0 +1,18 @@
+﻿@model object
+
+<h2>API Usage</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+else if (Model != null)
+{
+    <pre>@Model</pre>
+}
+else
+{
+    <p>No usage data found.</p>
+}
