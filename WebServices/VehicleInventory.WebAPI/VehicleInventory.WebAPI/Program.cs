@@ -1,3 +1,4 @@
+using CarRental.Shared.Middleware;
 using Microsoft.EntityFrameworkCore;
 using VehicleInventory.Application.Interfaces;
 using VehicleInventory.Application.Services;
@@ -32,8 +33,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseMiddleware<VehicleInventory.WebAPI.Services.ExceptionHandlingMiddleware>();
-
+app.UseMiddleware<GatewayOnlyMiddleware>();
 app.MapControllers();
 app.Run();
